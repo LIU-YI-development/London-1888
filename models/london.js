@@ -42,7 +42,6 @@ class London {
     const victim = peoples.find((people) => people.isVictim);
     const citizens = peoples.filter((people) => !people.isVictim);
     const citizens_with_distance = [];
-
     citizens.forEach((citizen) => {
       citizens_with_distance.push({
         citizen,
